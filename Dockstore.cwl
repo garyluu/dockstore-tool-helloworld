@@ -6,6 +6,9 @@ label: "Simple hello world tool"
 
 cwlVersion: v1.0
 
+doc:
+  $include: includes/doc.yml
+
 $namespaces:
   dct: http://purl.org/dc/terms/
   foaf: http://xmlns.com/foaf/0.1/
